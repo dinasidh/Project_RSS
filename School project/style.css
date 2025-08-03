@@ -1,0 +1,110 @@
+body{
+    background-color: #EED9B6;
+}
+
+
+header{
+/*:#023e8a; */
+    background-color:#ff8400;
+    color: white;
+    
+}
+.slider{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.slogan{
+    font-size: 1.5rem;
+    color: #023e8a;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.about-us, .Academics{
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 900px;
+    height: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+
+/* for gallery */
+.gallery-section {
+    padding: 50px 0;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 900px;
+    height: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+
+}
+
+.section-title {
+    font-size: 2em;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 0 20px;
+}
+
+.gallery-item {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.gallery-item p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #555;
+}
+
+.gallery-item:hover {
+    transform: scale(1.03);
+}
+
+.facilities-section{
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 900px;
+    height: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Contact */
+
+.contact-section {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 900px;
+    height: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+
